@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Minions Gallery</title>
+        <!--Link to bootstrap.css V3.3.7-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <!--Link to fontawesome.css for iconfonts-->
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <!--Additional css file for image urls-->
+        <link rel="stylesheet" type="text/css" href="images.css">
+        <!--Additional styling after bootstrap.css for overwriting rules-->
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <!--Navigation Bar fixed at the top-->
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <!--Navigation bar in the container-->
+            <div class="container">
+                <!--Navigation bar header and its elements-->
+                <div class="navbar-header">
+                    <!--Menu button comes on collapsing-->
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-new" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <!--Link to brand name-->
+                    <a href="Minions Gallery.html" class="navbar-brand">Minions</a>
+                </div>
+                <!--Elements which would collapse-->
+                <div class="collapse navbar-collapse" id="nav-new">
+                    <!--Some elements of navigation bar-->
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                    <!--Elements at extreme right of navigation bar-->
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">Sign Up</a></li>
+                        <li><a href="#">Login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--Container for content-->
+        <div class="container">
+            <!--Jumbotron for focussed heading-->
+            <div class="jumbotron">
+                <h1><i class="fa fa-camera-retro" aria-hidden="true"></i> Minions Gallery</h1>
+                <p class="description">Collection of some cool and funny pics of minions.</p>
+            </div>
+            <!--Responsive grid for images-->
+            <div class="row">
+                <!--1-->
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                    <!--For thumbnail display-->
+                    <div class="thumbnail">
+                        <!--All images are of different size.
+                            Placed in div to prevent distortion.
+                            image class contain property of image.
+                            image1 contain url of image.-->
+                        <div class="image image1"></div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                    <div class="thumbnail">
+                        <div class="image image2"></div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                    <div class="thumbnail">
+                        <div class="image image3"></div>
+                    </div>
+                </div>
+                <!--2-->
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                    <div class="thumbnail">
+                        <div class="image image4"></div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                    <div class="thumbnail">
+                        <div class="image image5"></div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                    <div class="thumbnail">
+                        <div class="image image6"></div>
+                    </div>
+                </div>
+                <!--3-->
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                    <div class="thumbnail">
+                         <div class="image image7"></div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                    <div class="thumbnail">
+                        <div class="image image8"></div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                    <div class="thumbnail">
+                        <div class="image image9"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Link to latest core JQuery to support Bootstrap.css-->
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <!--Link to Bootstrap JavaScript-->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    </body>
+</html>

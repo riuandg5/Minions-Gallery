@@ -1,0 +1,33 @@
+/*Separate body from navigation bar*/
+body{
+    padding-top: 70px;
+}
+/*Change color of jumbotron and its elements*/
+.jumbotron{
+    color: #2c3e50;
+    background: #ecf0f1;
+}
+/*Change background of navigation bar*/
+.navbar-inverse{
+    background: #2c3e50;
+}
+/*Change color of elements of navigation bar
+  Cannot use direct <a> tag due to less specificity*/
+.navbar-inverse .navbar-nav>li>a{
+    color: white;
+}
+/*Change color of brand name
+  Cannot use direct .navbar-brand due to less specificity*/
+.navbar-inverse .navbar-brand{
+    color: white;
+}
+/*Add some spacing between letters in description*/
+.description{
+    letter-spacing: 0.1rem;
+}
+.image{
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center center;
+}
