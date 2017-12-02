@@ -27,3 +27,23 @@ body{
 .description{
     letter-spacing: 0.1rem;
 }
+/*Change width of images to 100%
+  Exclude images of class width-fix
+  Cannot use direct img due to less specificity*/
+.thumbnail>img:not(.width-fix){
+    width: 100%;
+}
+/*Change height of images to 180px
+  Cannot use direct img due to less specificity*/
+.thumbnail>img{
+    height: 180px;
+}
+/*Change height and width of images to 100%
+  Only when window size is less than 767px (breakpoint)
+  Cannot use direct img due to less specificity*/
+@media(max-width:767px){
+	.thumbnail>img{
+        width: 100%;
+		height: 100%;
+	}
+}
