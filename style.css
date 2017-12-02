@@ -27,9 +27,7 @@ body{
 .description{
     letter-spacing: 0.1rem;
 }
-.image{
-    width: 100%;
+img{
+    width: 200px;
     height: 200px;
-    background-size: cover;
-    background-position: center center;
 }
