@@ -1,3 +1,5 @@
+/*Additional styling to overwrite bootstrap.css rules*/
+
 /*Separate body from navigation bar*/
 body{
     padding-top: 70px;
